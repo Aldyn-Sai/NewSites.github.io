@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://youtravel.me/upload/tours/24797/media/688/688eab9b3f5ceea4e18ee2a82d0b502a.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+header {
+    border-bottom: 3px solid #ddd;
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+}
+
+main {
+    min-height: 60vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    border-top: 2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* styles.css */
+.card-title,
+.card-text {
+    color: #000;
+}
+
+.btn-custom-dark {
+    background-color: #000; 
+    border-color: #000;
+    color: #fff; 
+}
+
+.btn-custom-dark:hover {
+    background-color: #343a40; 
+    border-color: #343a40;
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.btn-custom-dark {
+    background-color: #000; 
+    border-color: #000;
+    color: #fff; 
+}
+
+.btn-custom-dark:hover {
+    background-color: #343a40; 
+    border-color: #343a40;
+}
+

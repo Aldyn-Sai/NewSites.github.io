@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Туры в Дагестан</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Туры в Дагестан</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Туры</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Контакты</h1>
+                <p>Если у вас есть вопросы или вы хотите забронировать тур, свяжитесь с нами по следующим контактам:</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <h2>Наш офис</h2>
+                <p><strong>Адрес:</strong> г. Махачкала, ул. Неизвестная, д. 1</p>
+                <p><strong>Телефон:</strong> +7 (999) 999-999</p>
+                <p><strong>Email:</strong> <a href="mailto:info@dagestantours.com">info@dagestantours.com</a></p>
+            </div>
+            <div class="col-lg-6">
+                <h2>Часы работы</h2>
+                <p><strong>Понедельник - Пятница:</strong> 9:00 - 18:00</p>
+                <p><strong>Суббота:</strong> 10:00 - 16:00</p>
+                <p><strong>Воскресенье:</strong> Выходной</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <h2>Форма обратной связи</h2>
+                <form action="send_email.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Введите ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Введите ваше сообщение" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom-dark">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Туры в Дагестан. Все права защищены.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
